@@ -1,0 +1,28 @@
+.selected {
+    border: 2px solid black;
+}
+
+#marked {
+    background-color: yellow;
+}
+
+table.table1, td, th {
+    border: 1px solid black;
+    text-align: center;
+    border-collapse: collapse;
+    margin: auto;
+}
+
+table.table2 {
+    border: 0px;
+    text-align: center;
+    border-collapse: collapse;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+table.table2 td {
+    border: 0px;
+}
