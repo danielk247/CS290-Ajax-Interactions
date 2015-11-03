@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel="stylesheet" type="text/css" href="styles.css">
         <meta charset="UTF-8">
         <title>AJAX Interactions</title>
     
@@ -11,12 +12,12 @@
                 <legend>Input</legend>
                 <form>
                     <div>
-                        <input type=radio name="input_type" value="zip">
+                        <input type=radio name="input_type" id="z" value="zip" checked>
                         Zip Code: 
                         <input type=text id="zip_entry" maxlength="5" size="5">
                     </div>
                     <div>
-                        <input type=radio name="input_type" value="city">
+                        <input type=radio name="input_type" id="c" value="city">
                         City: 
                         <input type=text id="cs_entry" placeholder="ex: Dallas">
                     </div>
@@ -27,12 +28,12 @@
         <p>
             <fieldset>
                 <legend>Output from Open Weather Map</legend>
-                <table id="output_table">
-                    <tr>
-                        <th>Key</th>
-                        <th>Value</th>
-                    </tr>
-                </table>
+                <div class="table" id="output_table">
+                    <div class="row head">
+                        <div class="cell">Key</div>
+                        <div class="cell">Values</div>
+                    </div>
+                </div>
             </fieldset>
         </p>    
         <p>

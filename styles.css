@@ -1,28 +1,35 @@
-.selected {
-    border: 2px solid black;
+.table {
+    display: table;
 }
 
-#marked {
-    background-color: yellow;
+.head {
+    display: table-header-group;
+    font-weight: 700;
 }
 
-table.table1, td, th {
-    border: 1px solid black;
-    text-align: center;
-    border-collapse: collapse;
-    margin: auto;
+.row {
+    display: table-row;
+    padding-top: 5px;
 }
 
-table.table2 {
-    border: 0px;
-    text-align: center;
-    border-collapse: collapse;
-    margin-top: 25px;
-    margin-left: auto;
-    margin-right: auto;
-   
+.cell {
+    display: table-cell;
+    border: solid;
+    border-width: thin;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    text-align: left;
 }
 
-table.table2 td {
-    border: 0px;
+.obj {
+    background-color: darkgrey;
+}
+
+.key {
+    background-color: silver;
+}
+
+.value {
+    background-color: aliceblue;
 }
